@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+}
+.sect1{
+	/* background: url(tourist4.jpg) no-repeat center  ; */
+	background-size: cover;
+	height: 100vh;
+}
+/* .navbar{
+  position: sticky;
+} */
+
+
+.logo{
+	margin-left: 40px;
+  padding: 20px;
+  font-size: 50px ;
+	color: rgb(20, 10, 10);
+	font-family: sans-serif;
+	font: bolder;
+  width: fit-content;
+  display: inline-block;
+	justify-content: flex-start;
+	/* border: 2px solid white; */
+  /* background-color: rgba(0, 1, 2, 0.24); */
+  border-radius: 25px 45px 35px 35px;
+
+	
+
+}
+.logo span{
+	color: rgb(15, 8, 17);
+  text-shadow:
+  0 0 5px #fff,
+  0 0 10px rgba(255, 255, 255, 0.452),
+  0 0 20px rgba(255, 255, 255, 0.541),
+  0 0 40px rgba(0, 255, 255, 0.582),
+  0 0 80px rgba(0, 255, 255, 0.5),
+  0 0 90px rgba(0, 255, 255, 0.61),
+  0 0 100px rgba(0, 255, 255, 0.322),
+  0 0 90px #0ff;
+}
+
+ 
+ul {
+  margin-top: 50px;
+  list-style-type: none;
+  display: flex;
+  padding: 15px ;
+  position: relative; 
+  bottom: 50px;
+  background-size: 400% 400%;
+  color: whitesmoke;
+  background-color: rgba(5, 6, 7, 0.452);
+  animation: 12s myGradient infinite;
+  border-radius: 40px;
+  box-shadow: 3px 3px 20px #00010285;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@keyframes myGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  50%{
+    background-position: 100% 50%;
+  }
+  
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.fa-search{
+  transition: 1s;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.active {
+  transition: 1s;
+}
+
+.active1{
+  transition: 1s;
+}
+
+.active2 {
+  transition: 1s;
+}
+
+.active3 {
+  transition: 1s;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  padding: 45px 45px;
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.navigation {
+  position: absolute;
+  /* transform: translate(-50%, -50%); */
+  top: 10%;
+  left: 50%;
+}
+
+.fa-search:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active3:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+  margin-top: -100px;
+}
+
+.active2:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active1:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+@keyframes myFlash {
+  0% {
+    opacity: 1;
+    text-shadow: transparent;
+  }
+  
+  50% {
+    opacity: .1;
+  }
+  
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px #fff;
+  }
+}
+
+
+
+
+body{
+    background-color: rgb(194, 64, 97);
+}
+
+.cont1{
+	width:80%;
+	height: fit-content;
+	background-color: rgba(255, 255, 255, 0.267);
+	border: 2px solid black;
+	padding-left: 10px;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-radius: 10px 15px 24px;
+	padding-top: 4px;
+}
+h1{
+    /* text-align: center; */
+    color: rgb(219, 219, 231);
+	
+
+}
+
+h2{
+    text-align: center;
+}
+
+.card{
+    border: 2px solid blue;
+    height: 320px;
+    width: 250px;
+    margin-top: 6%;
+    margin-left: 4%;
+    border-radius: 5px;
+    background-color: rgba(81, 151, 216, 0.808);
+    display: inline-block;
+	border-radius: 50px 25px 40px 50px;
+	overflow: hidden	;
+	/* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/A_Village_near_Trilokinath_temple%2C_Lahaul.jpg/800px-A_Village_near_Trilokinath_temple%2C_Lahaul.jpg); */
+   
+}
+
+
+.card:hover{
+    box-shadow: 3px 3px 10px black;
+}
+.details{
+	position: relative;
+	display: inline-block;
+	top: 60%;
+	background-color: rgba(228, 245, 255, 0.425);
+  }
+img{
+    height: 45%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+   flex-wrap: wrap;
+    
+}
+
+button{
+    font-size: large;
+    margin-right: 35%;
+	margin-top: 20px;
+    margin-bottom: 10%;
+    float: right;
+    background-color: rgb(166, 79, 79);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: darkred;
+    transition: 0.5s;
+    
+}
+
+

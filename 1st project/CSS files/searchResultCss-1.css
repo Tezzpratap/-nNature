@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	/* padding: 0%; */
+}
+.navbar{
+	display: flex;
+	flex-direction: column;
+}
+.sect1{
+	background: url(bg4.jpg) no-repeat center  ;
+	background-size: cover;
+	/* width: 100%; */
+	height: 100vh;
+}
+
+.logo{
+	margin-left: 40px;
+  padding: 20px;
+  font-size: 50px ;
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+	font: bolder;
+  width: fit-content;
+  display: inline-block;
+	justify-content: flex-start;
+	/* border: 2px solid white; */
+  /* background-color: rgba(0, 1, 2, 0.24); */
+  border-radius: 25px 45px 35px 35px;
+
+	
+
+}
+.logo span{
+	color: rgb(48, 24, 54);
+  text-shadow:
+  0 0 5px #fff,
+  0 0 10px rgba(255, 255, 255, 0.452),
+  0 0 20px rgba(255, 255, 255, 0.541),
+  0 0 40px #0ff,
+  0 0 80px #0ff,
+  0 0 90px #0ff,
+  0 0 100px rgba(0, 255, 255, 0.322),
+  0 0 150px #0ff;
+}
+/* #logoimg{
+	position: relative;
+	width: 15%;
+    height: 90px;
+	left: 50px;
+	top: 15px;
+} */
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 40px;
+  padding: 15px 0;
+  position: relative; 
+  bottom: 50px;
+  /* background-size: 400% 400%; */
+  /* background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033,#d74177); */
+  background-color: rgba(240, 248, 255, 0.363);
+  animation: 12s myGradient infinite;
+  border-radius: 40px;
+  box-shadow: 3px 3px 20px #61829660;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+@keyframes myGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  50%{
+    background-position: 100% 50%;
+  }
+  
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.fa-search{
+  transition: 1s;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.active {
+  transition: 1s;
+}
+
+.active1{
+  transition: 1s;
+}
+
+.active2 {
+  transition: 1s;
+}
+
+.active3 {
+  transition: 1s;
+}
+
+li a {
+  color: rgb(10, 1, 1);
+  text-decoration: none;
+  padding: 45px 45px;
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.navigation {
+  position: absolute;
+  /* transform: translate(-50%, -50%); */
+  top: 10%;
+  left: 50%;
+}
+
+.fa-search:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active3:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+  margin-top: -100px;
+}
+
+.active2:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active1:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+@keyframes myFlash {
+  0% {
+    opacity: 1;
+    text-shadow: transparent;
+  }
+  
+  50% {
+    opacity: .1;
+  }
+  
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px #fff;
+  }
+}
+
+/* searchbox */
+.cont1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.searchBox1{
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+	border-radius: 10px;
+	width: 100vh;
+	height: 8vh;
+	background-color: rgba(236, 216, 225, 0.603);
+  margin-top: 70px;
+	
+
+}
+.searchbutton, .deterMineloc{
+	border-radius: 10px;
+	position: relative;
+	top: 15px;
+  display: inline-block;
+  border: 2px solid black;
+}
+#searchiconimg,#locatdete{
+	width: 40px;
+  width: cover;
+  /* border: 2px solid black; */
+
+}
+.PopularPlace{
+  /* border: 2px solid red; */
+  background-color: rgba(240, 248, 255, 0.24);
+  width: 900px;
+  height: fit-content;
+  margin: 10px 50px 50px 200px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 50px 20px 60px 30px;
+  /* flex-wrap: wrap */
+}
+.place1,.place2,.place3{
+  width: 200px;
+  height: 250px;
+  /* border: 2px solid red; */
+  margin: 25px 15px 10px 50px;
+}
+.card1{
+  background-image: url(tajmahal2.jpg);
+  /* margin-left: 50px; */
+  margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height:100%;
+  border-radius: 25px;
+}
+.details{
+  position: relative;
+  display: inline-block;
+  top: 70%;
+  background-color: rgba(0, 5, 8, 0.425);
+}
+.place_name,.location,.star{
+     color: white;
+}
+.neon1{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 150px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+}
+.heading1 h1{
+  margin-top: 100px;
+  margin-left: 200px;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(241, 197, 203, 0.432);
+  border-radius: 15px 20px 18px 24px;
+  text-align: center;
+  display: block;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 150px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	position: absolute;
+	background-color: rgba(160, 213, 241, 0.418);
+	width: 100%;
+	height: 4vh;
+	bottom: 0%;
+
+}

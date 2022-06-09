@@ -1,0 +1,31 @@
+ .cont1{
+	width: 1000px;
+	height: 250px;
+}
+.cont2{
+	width: 900px;
+	height:200px;
+	margin: 50px;
+	border: 2px solid yellow;
+}
+p{
+	position: absolute;
+	
+}
+.box1,.box2,.box3{
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	display: inline-block
+}
+.box2{
+	position: relative;
+	border: 5px solid red;
+    top: 50px;
+} 
+.box3{
+	position: absolute;
+	border: 7px dotted rgb(0, 225, 255);
+    top: 10px;
+	 left: 100px;
+} 

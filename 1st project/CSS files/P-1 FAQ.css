@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(to right, violet, rgb(140, 234, 140));
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: brown;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color:rgb(221, 81, 31);
+}
+
+.qna{
+   height: 100%;
+   width: 1500px;
+   color: black;
+   margin-left: 100px;
+   border: 5px solid crimson;
+   border-radius: 20px 50px 50px 10px;
+   padding: 10px;
+}
+input{
+    margin-left: 1270px;
+    height: 20px;
+    width: 300px;
+
+}
+
+button{
+    height: 25px;
+    margin-bottom: 30px;
+}
